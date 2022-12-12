@@ -1,0 +1,271 @@
+* {
+	margin:0;
+	padding:0;
+	color: white;
+	
+}
+
+body {
+	background-color: #50514F;
+}
+
+.naslov {
+	text-align:center;
+	font-size: 60px;
+	color: white;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	position: relative;
+	
+}
+
+.dobrodosli {
+	text-align: center;
+}
+
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+}
+
+.navigacija-tekst {
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	margin: 10px 20px;
+	
+}
+.navigacija-tekst:hover {
+	border-bottom: 2px solid white;
+	
+}
+
+footer {
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	margin-top: 30px;
+}
+
+.footer-tekst {
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	margin: 0 20px;
+	padding: 10px;
+}
+
+.tijelo-sadrzaj {
+	padding: 20px;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.tijelo-naslov {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.tijelo-tekst {
+	font-size: 18px;
+	
+}
+
+.autor-sekcija {
+	height: 400px;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.autor-podaci {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.autor-tekst {
+	padding: 10px;
+	font-size: 25px;
+	color: white;
+	
+}
+
+.autor-slika {
+	width: 300px;
+	height: 300px;
+	border: 2px solid white;
+	border-radius: 20px;
+	
+}
+
+.kategorije-naslov {
+	text-align:center;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.kategorije {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+.tablica {
+	margin: 0 auto;
+	border: 2px solid white;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+th {
+	padding: 3px;
+}
+td {
+	padding: 1px;
+}
+caption {
+	font-size: 120%;
+}
+
+input {
+	color: black;
+}
+
+select {
+	color: black;
+	padding: 3px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+option {
+	color: black;
+}
+
+textarea {
+	color: black;
+}
+
+.stavke-projekta-slika {
+	width: 400px;
+	height: auto;
+}
+
+.stavke-projekta-video {
+	width: 300px;
+	height: 300px;
+}
+
+
+.forma-kategorija {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.forma-tekst {
+	margin-right: 15px;
+	
+}
+
+.forma-gumb {
+	color: white;
+	background-color: transparent;
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	border: 2px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.zahtjev-za-projekt {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+.prijava {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	
+}
+
+.poruka, 
+.greska {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.dodaj-stavku {
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.dodaj-stavku:hover {
+	text-decoration: underline;
+}
+
+.uredi {
+	text-decoration: none;
+}
+
+.uredi:hover{
+	text-decoration: underline;
+}
+
+.detalji-projekta {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.detalji-projekta:hover {
+	text-decoration: underline;
+}
+
+.odobrenje-projekta {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+.registracija {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: start;
+	
+}
+
+.korisnik,
+.uredivanje-stavki,
+.dodavanje-stavki {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+
+.paginacija {
+	text-align: center;
+}
+
+.link {
+	font-size: 22px;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
